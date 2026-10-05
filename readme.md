@@ -1,19 +1,13 @@
-# Phishing Email Dataset
+# Urgency Phishing RL
 
 ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
 ![License](https://img.shields.io/github/license/yourusername/phishing-email-dataset)
 
-A comprehensive dataset of phishing and legitimate emails curated for cybersecurity research and applications. This dataset is designed to help researchers, data scientists, and cybersecurity professionals develop, train, and evaluate models for phishing detection, email filtering, and threat analysis.
+
+Phishing attacks are one of the most prevalent cybersecurity threats, targeting people to steal sensitive information or financial data. Detecting phishing emails accurately is crucial for mitigating these risks. This repo is trained on the Enron Email Dataset (1.7 GB) and uses reinforcement learning to adapt when it doesn't guess the phishing or legitimate labels correctly.
  
-
-## Overview
-
-Phishing attacks remain one of the most prevalent cybersecurity threats, targeting individuals and organizations to steal sensitive information, credentials, or financial data. Detecting phishing emails accurately is crucial for mitigating these risks. This dataset provides a rich source of labeled emails to facilitate the development of effective phishing detection systems.
- 
-## Features
-
-Each email in the dataset includes the following attributes:
+## Enron Email Dataset Attributes
 
 - **Email ID:** Unique identifier for each email.
 - **Sender:** Email address of the sender.
@@ -27,7 +21,7 @@ Each email in the dataset includes the following attributes:
   - `phishing` 
   - `legitimate`
 
-## Getting Started
+## Getting Started (Docker)
 
 1. **Clone the Repository**
 
