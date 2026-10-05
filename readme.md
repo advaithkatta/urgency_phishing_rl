@@ -33,7 +33,9 @@ This repo is trained on the Enron Email Dataset (1.7 GB) and uses reinforcement 
 
 2. **Use API Endpoints to test the model**
 
-POST /api/v1/env/reset
-POST /api/v1/agent/train
-GET /api/v1/agent/metrics
+- POST /api/v1/env/reset
+
+- POST /api/v1/agent/train
+
+- GET /api/v1/agent/metrics
 
