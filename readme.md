@@ -5,7 +5,9 @@
 ![License](https://img.shields.io/github/license/yourusername/phishing-email-dataset)
 
 
-Phishing attacks are one of the most prevalent cybersecurity threats, targeting people to steal sensitive information or financial data. Detecting phishing emails accurately is crucial for mitigating these risks. This repo is trained on the Enron Email Dataset (1.7 GB) and uses reinforcement learning to adapt when it doesn't guess the phishing or legitimate labels correctly.
+Phishing attacks are one of the most prevalent cybersecurity threats, targeting people to steal sensitive information or financial data. Detecting phishing emails accurately is crucial for mitigating these risks. 
+
+This repo is trained on the Enron Email Dataset (1.7 GB) and uses reinforcement learning to adapt when it doesn't guess the phishing or legitimate labels correctly.
  
 ## Enron Email Dataset Attributes
 
@@ -28,3 +30,10 @@ Phishing attacks are one of the most prevalent cybersecurity threats, targeting 
    ```bash
    git clone https://github.com/rokibulroni/Phishing-Email-Dataset.git
    cd Phishing-Email-Dataset
+
+2. **Use API Endpoints to test the model**
+
+POST /api/v1/env/reset
+POST /api/v1/agent/train
+GET /api/v1/agent/metrics
+
